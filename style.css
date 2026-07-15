@@ -170,6 +170,45 @@ strong{
     color: #64365b;
 }
 
+.project-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.project-btn{
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(255, 105, 180, 0.16);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 18px rgba(255, 105, 180, 0.24);
+}
+
+.project-btn.pink{
+    background: linear-gradient(135deg, #ff7eb6, #ff4fa3);
+}
+
+.project-btn.lavender{
+    background: linear-gradient(135deg, #b88cff, #8f5fe8);
+}
+
+.project-btn.rose{
+    background: linear-gradient(135deg, #ff9f9f, #ff6b8a);
+}
+
+.project-btn.peach{
+    background: linear-gradient(135deg, #ffc08c, #ff8f5b);
+}
+
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
