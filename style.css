@@ -137,6 +137,17 @@ section p{
     font-size: 1rem;
 }
 
+#turma .gallery{
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+#turma .photo-card img{
+    height: 220px;
+    object-fit: contain;
+    background: #fff8fc;
+    padding: 4px;
+}
+
 strong{
     color: #d4447c;
 }
